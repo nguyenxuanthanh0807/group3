@@ -5,12 +5,13 @@
 }
 body{
 	min-height: 100vh;
-	display: flex;
+	/* display: flex; */
 	align-items: center;
 	justify-content: center;
 	background-color: #f1f1f1;
 }
 .about-section{
+	
 	background: url(pic.png) no-repeat left;
 	background-size: 45%;
 	background-color: #fdfdfd;
@@ -63,3 +64,31 @@ body{
 		padding: 60px;
 	}
 }
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
